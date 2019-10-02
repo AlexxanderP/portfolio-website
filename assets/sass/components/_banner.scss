@@ -236,6 +236,7 @@
 		position: relative;
 		text-align: left;
 		overflow-x: hidden;
+		
 
 		.content {
 			@include padding(_size(padding, default), _size(padding, default));
@@ -245,6 +246,7 @@
 			width: 50%;
 			max-width: (_size(inner) * 0.75);
 			margin: 0 auto;
+			
 		}
 
 		.image {
